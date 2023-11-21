@@ -2,7 +2,7 @@ import { Container, Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
 const SkillList = () => {
   return (
-    <Container>
+    <Container id="skill">
       <Flex flexDir="column" textAlign="center" width="570px" mx="auto" paddingRight="90px">
         <Text fontSize="32px" fontWeight="bold" fontFamily="sans-serif">
           SKILL

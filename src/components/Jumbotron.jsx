@@ -2,9 +2,9 @@ import { Box, Button, Container, Flex, Image, Text } from "@chakra-ui/react";
 
 const Jumbotron = () => {
   return (
-    <Box bg="black">
+    <Box bg="black" >
       <Container maxW="6xl">
-        <Flex height="650px">
+        <Flex height="650px" id="home">
           <Flex
             flexDir="column"
             color="white"
@@ -18,11 +18,14 @@ const Jumbotron = () => {
             <Text my="20px">
               Saya adalah seorang yang antusias terhadap dunia teknologi dan
               Sedang mengejar impian sebagai full stack web developer di
-              Purwadhika.Menyukai tantangan kompleks dalam coding dan problem-solving
+              Purwadhika.Menyukai tantangan kompleks dalam coding dan
+              problem-solving
             </Text>
-            <Button py="24px" colorScheme="teal" variant="outline">
-              lets get started
-            </Button>
+            <a href="#study">
+              <Button py="24px" colorScheme="teal" variant="outline">
+                lets get started
+              </Button>
+            </a>
           </Flex>
           <Flex flex={1} px="72px" alignItems="center">
             <Image
@@ -40,4 +43,4 @@ const Jumbotron = () => {
   );
 };
 
-export default Jumbotron
+export default Jumbotron;

@@ -10,7 +10,7 @@ import {
 
 const StudiesTrack1 = () => {
   return (
-    <Box bgColor="bisque">
+    <Box bgColor="bisque" id="study" >
       <Container maxW="6xl" pt="24px">
         <Flex flexDir="column" textAlign="center" width="570px" mx="auto">
           <Text fontSize="32px" fontWeight="bold">
@@ -45,9 +45,11 @@ const StudiesTrack1 = () => {
               digital. Oleh karena itu, untuk mengikuti program ini, peserta
               program tidak harus memiliki background coding atau IT sebelumnya
             </Text>
-            <Button width="fit-content" bgColor="orange" px="28px">
-              activity
-            </Button>
+            <a href="#track">
+              <Button width="fit-content" bgColor="orange" px="28px">
+                activity
+              </Button>
+            </a>
           </Flex>
           <Flex flex={1}>
             <Image
@@ -60,7 +62,7 @@ const StudiesTrack1 = () => {
           </Flex>
         </Flex>
 
-        <Flex mt="90px">
+        <Flex mt="90px" id="track">
           <Flex flex={1}>
             <Image
               borderRadius="10px"
