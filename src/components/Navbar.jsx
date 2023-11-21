@@ -1,6 +1,6 @@
 import { Flex, Heading, Image, Link, Spacer, Text, VStack } from "@chakra-ui/react";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <VStack
     h="50px"
