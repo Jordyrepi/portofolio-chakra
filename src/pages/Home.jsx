@@ -1,7 +1,6 @@
-import { Jumbotron } from "../components/Jumbotron";
+import Jumbotron from "../components/Jumbotron";
 import SkillList from "../components/SkillList";
-import StudiesTrack from "../components/studiestrack";
-
+import StudiesTrack from "../components/StudiesTrack1";
 const Home = () => {
   return (
     <>

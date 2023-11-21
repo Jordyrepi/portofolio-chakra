@@ -1,6 +1,6 @@
 import { Box, Button, Container, Flex, Image, Text } from "@chakra-ui/react";
 
-export const Jumbotron = () => {
+const Jumbotron = () => {
   return (
     <Box bg="black">
       <Container maxW="6xl">
@@ -39,3 +39,5 @@ export const Jumbotron = () => {
     </Box>
   );
 };
+
+export default Jumbotron
