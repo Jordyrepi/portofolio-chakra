@@ -10,8 +10,8 @@ import {
 
 const StudiesTrack1 = () => {
   return (
-    <Box bgColor="bisque" id="study" >
-      <Container maxW="6xl" pt="24px">
+    <Box bgColor="bisque" id="study">
+      <Container maxW="6xl" pt="24px" >
         <Flex flexDir="column" textAlign="center" width="570px" mx="auto">
           <Text fontSize="32px" fontWeight="bold">
             Study Track
@@ -117,7 +117,7 @@ const StudiesTrack1 = () => {
               belajar,bisa juga digunakan untuk ruangan diskusi.
             </Text>
           </Flex>
-          <Flex flex={1} ml="30px">
+          <Flex flex={1} ml="30px" pb="70px" pr="70px" pl="60px">
             <Image
               borderRadius="10px"
               rounded="30px"

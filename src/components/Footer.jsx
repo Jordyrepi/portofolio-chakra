@@ -1,21 +1,21 @@
-import { Flex, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Flex, HStack, Text } from "@chakra-ui/react";
+import { FaGit, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-function Footer() {
+const Footer = () => {
   return (
-    <VStack h="50px" textAlign="center" bg="#edf2f7" boxShadow="dark-lg">
-      <Flex w="100%" mr="40px" mt="10px">
-        <Heading ml="8" size="md" fontWeight="semibold" color="black">
-          <Text color="black" mb={{ base: "20px", xl: "0px" }}>
-            {" "}
-            &copy;
-            <Text as="span" fontWeight="500" ms="4px" color="#FF6C22">
-              2023 Made with Love
-            </Text>
-          </Text>
-        </Heading>
-      </Flex>
-    </VStack>
+    <Box bgColor="grey" py="3">
+      <Container maxWidth="6xl">
+        <Flex justifyContent="space-between">
+          <Text>© 2023 Made With Love</Text>
+            <HStack gap={6} >
+           <FaGit/>
+           <FaInstagram />
+           <FaLinkedin />
+            </HStack>
+        </Flex>
+      </Container>
+    </Box>
   );
-}
+};
 
 export default Footer;

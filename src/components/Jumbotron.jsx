@@ -2,7 +2,7 @@ import { Box, Button, Container, Flex, Image, Text } from "@chakra-ui/react";
 
 const Jumbotron = () => {
   return (
-    <Box bg="black" >
+    <Box bg="black">
       <Container maxW="6xl">
         <Flex height="650px" id="home">
           <Flex
